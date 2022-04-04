@@ -10,7 +10,7 @@ from flask_msearch import Search
 
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://lsdfictwmbxrun:4ece46ba4fca75fdb43d4e838103855fbc2cc369b54b4fca44d780b0542f2dee@ec2-3-230-122-20.compute-1.amazonaws.com:5432/dek9cqminjouro'
+app.config['SQLALCHEMY_DATABASE_URI'] = ' postgres://rejeymqvhhjlfd:763f4cb4be8d9f5cec251a578892cf4a2d4f149d29658e9863c4cf8811a63c9f@ec2-18-214-134-226.compute-1.amazonaws.com:5432/d4mckv20aevvro'
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///project.db'
 app.config['SECRET_KEY']="key"
 db = SQLAlchemy(app)
